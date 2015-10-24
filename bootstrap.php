@@ -36,6 +36,15 @@ class HHVM_ColorFilter
                             'type' => 'checkbox',
                             'help' => _i('KÖCSÖG KÖCSÖG KÖCSÖG?')
                         ];
+//                        $structure['plugin_colorfilter_filtertext'] = [
+//                            'database' => true,
+//                            'boards_preferences' => true,
+//                            'type' => 'input',
+//                            'class' => 'span3',
+//                            'label' => 'Words to filter',
+//                            'help' => _i(''),
+//                            'default_value' => false
+//                        ];    
                         $result->setParam('structure', $structure)->set($structure);
                     })->setPriority(4);
             });
